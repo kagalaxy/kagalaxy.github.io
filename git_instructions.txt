@@ -1,2 +1,6 @@
 Because I'm dumb and I will never remember:
 
+git add .
+git status
+git commit -m "date"
+git push -u origin main
