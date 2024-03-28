@@ -1,0 +1,10 @@
+/* Generally for mobile users quick solution*/
+@media only screen and (max-width: 768px) {
+    #content-main {
+        margin: 0px;
+        padding: 20px;
+    }
+    #wip {
+        font-size: large;
+    }
+}

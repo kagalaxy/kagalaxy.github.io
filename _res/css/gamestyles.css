@@ -8,17 +8,13 @@
     font-family: 'CustomFont', sans-serif; /* With fallback */
 }
 
-#wip {
-    background-color: rgb(190, 114, 0);
-}
-
 * {
     box-sizing: border-box;
 }
 
 html, body {
     min-height: 100vh;
-    min-width: 80vh;
+    min-width: 20vh;
     margin: 0px;
     
     background: linear-gradient(to bottom, rgba(21, 0, 138, 0.5), rgba(3, 111, 126, 0.5));
@@ -51,8 +47,8 @@ a:visited {
 }
 
 #content-main {
-    margin: 40px 60px;
-
+    margin: 10px auto;
+    width: 980px;
     padding: 10px 40px;
 
     border: 3px solid #cdcdcd;
@@ -61,39 +57,15 @@ a:visited {
     background-color: #070707dd;
 }
 
-#game-overview {
-    border: 2px solid #c773ff;
-    padding: 10px 20px;
-}
-#game-overview-header {
-    font-size: xx-large;
-    font-weight: bold;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-#game-overview-buttons {
-    margin-left: 10px;
-    color: white;
+table {
+    border-collapse: collapse;
+    padding: 4px;
     font-size: large;
 }
-#game-overview-buttons a:nth-child(1) button {
-    border: none;
-    padding: 14px 30px;
-    background-color: rgb(0, 41, 75);
-}
-#game-overview-buttons a:nth-child(2) button {
-    border: none;
-    padding: 14px 30px;
-    background-color: rgb(0, 75, 25);
-}
-#game-overview-screenshots {
-    white-space: nowrap;
-    overflow-x: auto;
-}
-#game-overview-screenshots img {
-    display: inline-block;
-    height: 220px;
+table td{
+    border: 1px solid white; 
+    margin: 2px;
+    padding: 8px 16px;
 }
 
 button {

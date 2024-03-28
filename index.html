@@ -1,45 +1,47 @@
 <!DOCTYPE html>
+<!--Have a peak c:-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="_res/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="_res/css/styles.css">
-    <title>Ka_Galaxy</title>
+    <link rel="icon" href="/_res/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/_res/css/styles.css">
+    <link rel="stylesheet" href="/_res/css/minimal.css">
+    <script src="/_res/js/web_date.js" defer></script>
+    <title>Homepage</title>
 </head>
 <body>
     <div id="content-main">
         <h1>Homepage</h1>
         <hr>
         <nav>
-            <ul>
-                <li><a href="#"><button>Homepage</button></a></li>
-                <li><a href="#"><button>Homepage</button></a></li>
-                <li><a href="#"><button>Homepage</button></a></li>
-                <li><a href="#"><button>Homepage</button></a></li>
-            </ul>
+            <a href="/"><button>Homepage</button></a>
+            <a href="/games/"><button>Games</button></a>
+            <a href="/utilities/"><button>Utilities</button></a>
+            <a href="/resources/"><button>Resources</button></a>
         </nav>
         <hr>
         <p>
             Hello I'm Ka_Galaxy!!
         </p>
         <p>
-            I'm 19 years old IT student. I have a knowledge about<br>
-            front-end websites' design, network management and adaptation<br>
-            to programming languages.<br>
-            <br>
+            I'm 19 years old IT student. I have a knowledge about 
+            front-end websites' design, network management, cybersecurity 
+            and adaptation to programming languages.
+        </p>
+        <p>
             My favourite hobbies include making games and all of their aspects.<br>
             I've made one for the <a href="https://itch.io/jam/my-first-game-jam-summer-2023" target="_blank">game jam</a> titled "My first Game Jam 2023" titled Gliding Depths.<br>
             U can play it
-            <a href="https://ka-galaxy.itch.io/gliding-depths" target="_blank">
-                on this website.
-            </a><br><br>
+            <a href="https://ka-galaxy.itch.io/gliding-depths" target="_blank">on itch.io</a> or <a href="/games/">on my website.</a>
+        </p>
+        <p>
             In my free time I'm working on some more dedicated projects such as Novaintos,<br>
             which will be announced in the future on both: discord and itch.io.<br>
             You can join them to find out what I'm cooking.
-            <hr>
-            <img src="_res/images/gliding_depths_1.png" alt="Screenshot 1" height="240" style="border-radius: 12px;">
-            <br>    
+        </p>
+        <p>
+            <i>For now try exploring this website for a moment.</i>
         </p>
         <hr>
         <a href="discord/index.html" target="_blank"><button type="button" id="redirect-discord">Join my Discord Server</button></a>
@@ -54,7 +56,7 @@
         </p>
         
         <footer>
-            Website updated at 28.03.2024
+            Website updated at <span id="edit-date-container">...</span>
         </footer>
     </div>
 </body>
