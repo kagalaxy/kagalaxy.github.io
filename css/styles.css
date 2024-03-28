@@ -1,0 +1,69 @@
+/* Custom font */
+@font-face {
+    font-family: 'Cozette';
+    src: url('../fonts/CozetteVector.ttf') format('truetype');
+    }
+
+.custom-font-text {
+    font-family: 'CustomFont', sans-serif; /* With fallback */
+}
+
+html, body {
+    min-height: 100vh;
+    margin: 0px;
+    
+    background: linear-gradient(to bottom, rgba(21, 0, 138, 0.5), rgba(3, 111, 126, 0.5));
+    background-size: cover;
+
+    background-color: #131313;
+
+    color: #ffffff;
+    font-family: 'Cozette';
+}
+
+a {
+    text-decoration: none;
+    color: #45a2ff;
+}
+a:hover {
+    color: #6bfff3;
+}
+a:visited {
+    color: #c773ff;
+}
+
+#content-main {
+    margin: 40px 60px;
+
+    padding: 10px 40px;
+
+    border: 3px solid #cdcdcd;
+    border-radius: 8px;
+
+    background-color: #070707dd;
+}
+
+button {
+    font-family: "Cozette";
+    color: white;
+}
+
+#redirect-discord {
+    font-size: large;
+    border-radius: 6px;
+    color: white;
+    border-color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(0, 41, 75);
+}
+
+#redirect-itch {
+    font-size: large;
+    border-radius: 6px;
+    color: white;
+    border-color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(75, 11, 0);
+}
