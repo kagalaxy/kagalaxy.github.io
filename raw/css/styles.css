@@ -80,11 +80,13 @@ a:visited {
 #game-overview-buttons a:nth-child(1) button {
     border: none;
     padding: 14px 30px;
+    width: 140px;
     background-color: rgb(0, 41, 75);
 }
 #game-overview-buttons a:nth-child(2) button {
     border: none;
     padding: 14px 30px;
+    width: 140px;
     background-color: rgb(0, 75, 25);
 }
 #game-overview-screenshots {
