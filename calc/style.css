@@ -1,0 +1,46 @@
+*:not(html) {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* <link href="https://fonts.googleapis.com/css?family=Font+Name" rel="stylesheet"> */
+}
+
+body {
+    background-image: linear-gradient(to bottom right, rgb(69, 56, 255), rgb(241, 145, 0));
+    background-size: cover;
+}
+/*
+.calc-base {
+    width: 25vw;
+    height: 30vh;
+    min-width: 340px;
+    min-height: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: calc(50vh - 130px);
+    margin-bottom: calc(50vh - 130px);
+    background-image: linear-gradient(to bottom, rgb(207, 219, 255), rgb(255, 255, 255));
+
+    border: 3px solid rgb(207, 219, 255);
+    border-radius: 12px;
+}
+
+.button-row {
+    display: flex;
+}
+
+.button-row * {
+    margin: 4px 6px;
+    height: 5vh;
+    min-height: 30px;
+    flex: auto;
+
+    background-color: rgb(255, 255, 255);
+    border: 4px solid rgb(195, 216, 255);
+    border-radius: 6px;
+}
+
+*/
